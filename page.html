@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Millenium</title>
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="header__mob">
+        <button class="header__mob-close">
+          <img src="images/header/header-mob-close.svg" alt="">
+        </button>
+        <ul class="header__menu-list">
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="index.html">Главная</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="price.html">Цены</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="portfolio.html">Кейсы и отзывы</a>
+          </li>
+          <li class="header__menu-item">
+            <a class="header__menu-link" href="contacts.html">Контакты</a>
+          </li>
+        </ul>
+        <a class="header__mob-mail" href="mailto:info@millenium.ru">info@millenium.ru</a>
+        <a class="header__mob-phone" href="tel:+74957926669">+7 (495) 792-66-69</a>
+        <p class="header__mob-hours">пн-пт 10:00–19:00</p>
+      </div>
+      <div class="header__top">
+        <div class="container">
+          <div class="header__top-inner">
+            <button class="header__top-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a class="header__logo-link" href="index.html">
+              <img class="header__top-logo" src="images/header/logo.svg" alt="logo">
+            </a>
+            <nav class="header__menu">
+              <ul class="header__menu-list">
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="index.html">Главная</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="price.html">Цены</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="portfolio.html">Кейсы и отзывы</a>
+                </li>
+                <li class="header__menu-item">
+                  <a class="header__menu-link" href="contacts.html">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__contacts">
+              <div class="header__contacts-links">
+                <a class="header__contacts-link" href="#">
+                  <img class="header__contacts-icon" src="images/header/telegram-icon.svg" alt="">
+                </a>
+                <a class="header__contacts-link" href="#">
+                  <img class="header__contacts-icon" src="images/header/whatsapp-icon.svg" alt="">
+                </a>
+                <a class="header__contacts-link" href="tel:+74955556565">+ 7 (495) 555 65 65</a>
+              </div>
+              <p class="header__contacts-text">Ежедневно с 09:00 до 18:00</p>
+            </div>
+            <button class="header__top-btn">Заказать звонок</button>
+          </div>
+        </div>
+      </div>
+      <div class="popup hidden">
+        <div class="popup__closebg">
+        </div>
+        <div class="popup__container">
+          <button class="popup__close" type="button">
+            <img class="popup__close-img" src="images/header/close-form-btn.svg" alt="">
+          </button>
+          <form class="popup__form">
+            <h3 class="popup__form-title">Заявка на консультацию</h3>
+            <label class="popup__form__label">
+              <p class="popup__form-descr">Ваше имя</p>
+              <input class="popup__form-input" type="text" placeholder="Введите ваше имя" required>
+            </label>
+            <label class="popup__form-label">
+              <p class="popup__form-descr">Номер телефона</p>
+              <input class="popup__form-input" type="tel" placeholder="+ 7 (999) 999 99 99" required>
+            </label>
+            <button class="popup__form-btn" type="submit">Отправить</button>
+            <p class="popup__form-text">Нажимая на кнопку «Отправить заявку», я даю согласие на обработку персональных данных и соглашаюсь c <a href="#">политикой конфиденциальности</a></p>
+            <img class="popup__form-img" src="images/header/popup-img-lock.png" alt="">
+          </form>
+          <div class="popup__loader hidden">
+            <img class="popup__loader-img" src="images/header/form-load.svg" alt="">
+          </div>
+          <div class="popup__after hidden">
+            <h3 class="popup__after-title">Спасибо за заявку! <br> Мы с вами свяжемся.</h3>
+            <h3 class="popup__after-subtitle">Ваш бонус:</h3>
+            <img class="popup__after-img" src="images/header/popup-img-unlock.png" alt="">
+            <a class="popup__after-link" href="#">Смотреть PDF</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <h2 class="footer__title">Напишите нам</h2>
+          <div class="footer__top-row">
+            <a class="footer__top-mail" href="mailto:info@millenium.ru">info@millenium.ru</a>
+            <button class="footer__top-btn">Напишите нам</button>
+          </div>
+        </div>
+        <div class="footer__contacts">
+          <div class="footer__contacts-info">
+            <p class="footer__contacts-address">Москва,
+              ул. Профсоюзная 76, <br> БЦ «ГАЛЕРЕЯ 76» 2 этаж</p>
+            <p class="footer__contacts-phone">+7 (495) 792-66-69</p>
+            <p class="footer__contacts-hours">пн-пт 10:00–19:00</p>
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-icon" src="images/footer/footer-telegram-icon.svg" alt="telegram">
+            </a>
+            <a class="footer__social-link" href="#">
+              <img class="footer__social-icon" src="images/footer/footer-whatsapp-icon.svg" alt="whatsapp">
+            </a>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <a class="footer__logo-link" href="index.html">
+            <img class="footer__logo-img" src="images/footer/footer-logo.svg" alt="logo">
+          </a>
+          <p class="footer__copy-text">© 2018–2021 | Millenium - создание интернет-магазинов на 1С Битрикс</p>
+          <a class="footer__copy-link" href="privacy.html">Политика конфиденциальности</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.min.js"></script>
+</body>
+
+</html>
